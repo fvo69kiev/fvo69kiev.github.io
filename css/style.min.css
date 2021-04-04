@@ -434,11 +434,13 @@ p{margin:0}
 .scale:hover::after {
     content: attr(data-title); /* Выводим текст */
     position: absolute; /* Абсолютное позиционирование */
-    left: 20%; top: 30%; /* Положение подсказки */
+    left: 5%;
+    right: 5%;
+    top: 45%; /* Положение подсказки */
     z-index: 1; /* Отображаем подсказку поверх других элементов */
-    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
-    font-family: Arial, sans-serif; /* Гарнитура шрифта */
-    font-size: 11px; /* Размер текста подсказки */
+    background: rgba(255,255,230,0.85); /* Полупрозрачный цвет фона */
+    font-size: 12px; /* Размер текста подсказки */
     padding: 5px 10px; /* Поля */
-    border: 1px solid #333; /* Параметры рамки */
+    border: 1px solid #0F4DCF; /* Параметры рамки */
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
