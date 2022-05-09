@@ -417,7 +417,8 @@ p{margin:0}
     text-decoration: none;
     transition: all .7s;
 }
-#toTop:hover {
+#toTop:hover,
+.btn:hover {
     background-color: #9A6401;
     color: #fff;
 }
