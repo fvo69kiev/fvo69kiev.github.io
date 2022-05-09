@@ -128,7 +128,7 @@ p{margin:0}
     background:#ffa501}
 .title__section-title:before{top:-6px;left:50%;transform:translateX(-50%)}
 .title__section-subtitle{text-align:center}
-.btn{height:45px;background:#ffa501;box-shadow:0 4px 4px rgba(0,0,0,.15);padding:12px 25px}
+.btn{height:45px;background:#ffa501;box-shadow:0 4px 4px rgba(0,0,0,.15);padding:12px 25px;transition: all .7s;}
 .sidepanel{
     position:fixed;
     top:200px;
